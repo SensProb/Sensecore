@@ -187,7 +187,7 @@ for idx, m in enumerate(machines_data):
                 </div>
                 <p style="color:#94a3b8; font-size:0.85rem; margin-top:4px;">{m['name']}</p>
                 <hr style="border-color:#243049; margin:10px 0;">
-                <div style="font-size:0.9rem; line-height:1.6;">
+                <div style="font-size:0.9rem; line-height:1.6; color:#ffffff;">
                     🌡️ Nhiệt độ: <b>{m['temp']} °C</b><br>
                     📳 Độ rung: <b>{m['vib']} mm/s</b><br>
                     ⚡ OEE: <b>{m['oee']}%</b>
